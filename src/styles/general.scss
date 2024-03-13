@@ -1,0 +1,139 @@
+body {
+  font-family: "Merriweather", serif;
+}
+
+//TEXT COLOR
+.text-extra-light-green {
+    color: #c3e2a5;
+}
+.text-light-green {
+    color: #b0e29d;
+}
+
+.text-middle-green {
+    color: #73b760;
+}
+
+.text-dark-green {
+    color: #43762b;
+}
+
+//BACKGROUND COLOR
+.bg-extra-light-green {
+    background-color: #c3e2a5;
+}
+.bg-light-green {
+    background-color: #b0e29d;
+}
+
+.bg-middle-green {
+    background-color: #73b760;
+}
+
+.bg-dark-green {
+    background-color: #43762b;
+}
+
+.bg-extra-dark-green {
+    background-color: #274b16;
+}
+
+//CURSOR
+.cursor-pointer {
+    cursor: pointer;
+}
+
+//HOVER
+li:hover {
+    color: #ddf5c5;
+    cursor: pointer;
+}
+
+//BUTTON
+.btn-cust {
+    color: white;
+    font-size: 18px;
+    text-align: 40px;
+    padding: 0px 15px;
+    font-weight: bold;
+    background-color: #73b760;
+    border-radius: 99px;
+
+    &:hover {
+        background-color: #43762b;
+    }
+    
+}
+
+.btn-cust-red {
+    color: white;
+    font-size: 18px;
+    line-height: 20px;
+    padding: 0px 15px;
+    font-weight: bold;
+    background-color: rgba(238, 5, 5, 0.747);
+    border: 2px solid black;
+    border-radius: 99px;
+    cursor: pointer;
+  
+    &:hover {
+      background-color: rgb(216, 3, 3);
+    }
+    
+}
+
+// INPUT
+.label-cust {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.input-cust {
+    text-align: 30px;
+    font-size: 16px;
+    line-height: 30px;
+    width: 100%;
+    border: 2px solid rgb(206, 205, 205);
+    border-radius: 5px;
+    padding: 0px 5px;
+}
+
+//ERROR MESSAGE/SIGN
+.error-message {
+    color: red;
+    position: absolute;
+    width: 200px;
+    font-size: 12px;  
+}
+  
+.error-label {
+color: red;
+}
+  
+.error-input {
+border: 1px solid red;
+border-radius: 5px;
+background-color: rgb(247, 230, 230);
+}
+
+//POSITION
+.position-relative {
+    position: relative;
+}
+
+//LOADING 
+.loading {
+    text-align: center;
+    font-size: 100px;
+    padding: 130px 0px;
+  }
+
+#app {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+footer{
+    margin-top: auto;
+}
